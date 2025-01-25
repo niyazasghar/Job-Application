@@ -1,0 +1,20 @@
+server:
+  port: 9000
+
+spring:
+  application:
+    name: reviews-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/reviewdb
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: springstudent
+    password: springstudent
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
