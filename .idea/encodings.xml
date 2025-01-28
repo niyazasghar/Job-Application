@@ -9,5 +9,11 @@
     <file url="file://$PROJECT_DIR$/Version-02/eurekaServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Version-02/jobs-services/jobs-services/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Version-02/reviews-services/reviews-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-03/company-services/company-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-03/configServer/configServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-03/eurekaServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-03/reviews-services/reviews-services/src/main/java" charset="UTF-8" />
   </component>
 </project>

@@ -1,5 +1,4 @@
-server:
-  port: 8071
+
 spring:
   application:
     name: "eurekaserver"
@@ -21,3 +20,15 @@ management:
     health:
       probes:
         enabled: true
+
+server:
+  port: 8070
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: false
+    registerWithEureka: false
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

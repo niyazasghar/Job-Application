@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
-@FeignClient("reviews")
+@FeignClient(value = "reviews",fallback = ReviewFallback.class)
 public interface ReviewsFeignClient {
     @Operation(summary = "Get reviews by Company ID")
     @GetMapping("/api/reviews/company/{companyId}")

@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="798c28c4-a469-4d3d-97cc-3fb7e601bdec" name="Changes" comment="" />
+    <list default="true" id="798c28c4-a469-4d3d-97cc-3fb7e601bdec" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/config/KeycloakRoleConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/controller/FallBackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/CompanyFallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/ReviewFallback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/company-services/company-services/src/main/java/com/niyaz/company_services/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/company-services/company-services/src/main/java/com/niyaz/company_services/controller/CompanyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/company-services/company-services/target/classes/com/niyaz/company_services/controller/CompanyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/company-services/company-services/target/classes/com/niyaz/company_services/controller/CompanyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/eurekaServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/eurekaServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/eurekaServer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/eurekaServer/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/CompanyFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/CompanyFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/ReviewsFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/ReviewsFeignClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/target/classes/application.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +32,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -26,35 +44,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.CompanyServicesApplication.executor": "Run",
-    "Application.ConfigServerApplication.executor": "Run",
-    "Application.EurekaServerApplication.executor": "Run",
-    "Application.JobsServicesApplication.executor": "Run",
-    "Application.ReviewsServicesApplication.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/MD NIYAZ ASGHAR/Desktop/JOB-Application",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.CompanyServicesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.GatewayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JobsServicesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ReviewsServicesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MD NIYAZ ASGHAR/Desktop/JOB-Application/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-03\gateway\gateway\src\main\java\com\niyaz\gateway" />
       <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application" />
       <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-02\jobs-services\jobs-services\src\main\resources" />
       <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\version-02" />
       <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-01" />
-      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\jobs-services\jobs-services\src\main\java\com\niyaz\jobs_services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-00" />
       <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-02\jobs-services\jobs-services\src\main\resources\env" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.niyaz.jobs_services.service.client" />
       <recent name="com.niyaz.jobs_services.controller" />
       <recent name="com.niyaz.jobs_services.service" />
-      <recent name="com.niyaz.jobs_services.service.client" />
       <recent name="com.niyaz.jobs_services.dto" />
       <recent name="com.niyaz.reviews_services.dto" />
     </key>

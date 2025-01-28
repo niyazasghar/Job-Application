@@ -15,6 +15,12 @@
         <option value="$PROJECT_DIR$/Version-00/reviews-services/reviews-services/pom.xml" />
         <option value="$PROJECT_DIR$/Version-00/company-services/company-services/pom.xml" />
         <option value="$PROJECT_DIR$/Version-00/jobs-services/jobs-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-03/company-services/company-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-03/configServer/configServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-03/eurekaServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-03/reviews-services/reviews-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-03/gateway/gateway/pom.xml" />
       </list>
     </option>
   </component>

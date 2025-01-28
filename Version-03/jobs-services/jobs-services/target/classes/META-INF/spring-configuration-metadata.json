@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "jobs",
+      "type": "com.niyaz.jobs_services.dto.JobsContactInfoDto",
+      "sourceType": "com.niyaz.jobs_services.dto.JobsContactInfoDto"
+    }
+  ],
+  "properties": [
+    {
+      "name": "jobs.contact-details",
+      "type": "java.util.Map<java.lang.String,java.lang.String>",
+      "sourceType": "com.niyaz.jobs_services.dto.JobsContactInfoDto"
+    },
+    {
+      "name": "jobs.message",
+      "type": "java.lang.String",
+      "sourceType": "com.niyaz.jobs_services.dto.JobsContactInfoDto"
+    },
+    {
+      "name": "jobs.on-call-support",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "com.niyaz.jobs_services.dto.JobsContactInfoDto"
+    }
+  ],
+  "hints": []
+}

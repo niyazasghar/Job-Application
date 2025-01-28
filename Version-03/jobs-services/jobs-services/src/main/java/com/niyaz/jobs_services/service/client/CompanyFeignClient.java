@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient("company")
+@FeignClient(value = "company", fallback = CompanyFallback.class)
 public interface CompanyFeignClient {
     @Operation(summary = "Get a company by ID")
     @GetMapping("/api/companies/{id}")
