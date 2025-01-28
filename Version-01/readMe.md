@@ -56,3 +56,13 @@ Each service provides complete CRUD (Create, Read, Update, Delete) operations, e
 ```bash
 git clone https://github.com/your-username/job-application-microservices.git
 cd job-application-microservices/version1
+
+
+
+🗄 Setup the Database
+Create Databases:
+
+Create separate databases for each service:
+job_db
+company_db
+reviews_db
