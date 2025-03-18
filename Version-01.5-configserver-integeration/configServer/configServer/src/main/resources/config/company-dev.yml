@@ -1,0 +1,13 @@
+server:
+  port: 1001
+build:
+  version: "3.0"
+
+company:
+  message: "Welcome to Niyaz Company  - Development Environment"
+  contactDetails:
+    name: "Alice Smith - Developer"
+    email: "alice.smith@eazybank.dev"
+  onCallSupport:
+    - "(555) 555-1111"
+    - "(555) 555-2222"

@@ -4,10 +4,8 @@ server:
 spring:
   application:
     name: "configserver"
-
   profiles:
     active: git
-
   cloud:
     config:
       server:

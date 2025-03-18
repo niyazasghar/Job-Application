@@ -76,22 +76,5 @@ public class JobController {
 
 
 
-//    @Autowired
-//    private Environment environment;
-//
-//    @Autowired
-//    private JobsContactInfoDto companyContactInfoDto;
-//
-//    @GetMapping("/contact-info")
-//    public ResponseEntity<JobsContactInfoDto> getContactInfo() {
-//        return ResponseEntity
-//                .status(HttpStatus.OK)
-//                .body(companyContactInfoDto);
-//    }
-//    @GetMapping("/java-version")
-//    public ResponseEntity<String> getJavaVersion() {
-//        return ResponseEntity
-//                .status(HttpStatus.OK)
-//                .body(environment.getProperty("JAVA_HOME"));
-//    }
+
 }

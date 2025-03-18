@@ -20,8 +20,14 @@ public class JobApplication {
     @NotNull(message = "Job ID is required")
     private Long jobId;
 
-    @NotNull(message = "User ID is required")
-    private Long userId;
+    @NotNull(message = "First Name  is required")
+    private String firstName;
+
+    @NotNull(message = "last Name  is required")
+    private String lastName;
+
+    @NotNull(message = "Resume is Required")
+    private String resumeLink;
 
     @Enumerated(EnumType.STRING)
     @NotNull(message = "Application status is required")
@@ -32,4 +38,6 @@ public class JobApplication {
 
     @UpdateTimestamp
     private LocalDateTime updatedAt;
+
+
 }

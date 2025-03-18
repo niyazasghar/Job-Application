@@ -8,7 +8,6 @@ import org.springframework.security.authentication.AbstractAuthenticationToken;
 import org.springframework.security.config.annotation.web.reactive.EnableWebFluxSecurity;
 import org.springframework.security.config.web.server.ServerHttpSecurity;
 import org.springframework.security.oauth2.jwt.Jwt;
-import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter;
 import org.springframework.security.oauth2.server.resource.authentication.ReactiveJwtAuthenticationConverterAdapter;
 import org.springframework.security.web.server.SecurityWebFilterChain;
 import reactor.core.publisher.Mono;
@@ -18,23 +17,19 @@ import reactor.core.publisher.Mono;
 public class SecurityConfig {
 
     @Bean
-    public SecurityWebFilterChain springSecurityFilterChain(ServerHttpSecurity serverHttpSecurity) {
-        serverHttpSecurity.authorizeExchange(exchanges -> exchanges.pathMatchers(HttpMethod.GET).permitAll()
-                .pathMatchers("/JobApp/company/**").hasRole("COMPANY")
-                .pathMatchers("/JobApp/jobs/**").hasRole("JOBS")
-                .pathMatchers("/JobApp/reviews/**").hasRole("REVIEWS"))
-                .oauth2ResourceServer(oAuth2ResourceServerSpec -> oAuth2ResourceServerSpec
-                        .jwt(jwtSpec -> jwtSpec.jwtAuthenticationConverter(grantedAuthoritiesExtractor())));
-        serverHttpSecurity.csrf(csrfSpec -> csrfSpec.disable());
-        return serverHttpSecurity.build();
+    public SecurityWebFilterChain springSecurityFilterChain(ServerHttpSecurity http) {
+        http.authorizeExchange(exchanges -> exchanges
+                        .pathMatchers(HttpMethod.GET).permitAll()
+                        .pathMatchers("/JobApp/company/**").hasRole("COMPANY")
+                        .pathMatchers("/JobApp/jobs/**").hasRole("JOBS")
+                        .pathMatchers("/JobApp/reviews/**").hasRole("REVIEWS"))
+                .oauth2ResourceServer(oAuth2 -> oAuth2.jwt(jwt -> jwt.jwtAuthenticationConverter(grantedAuthoritiesExtractor())));
+        http.csrf(csrf -> csrf.disable());
+        return http.build();
     }
 
     private Converter<Jwt, Mono<AbstractAuthenticationToken>> grantedAuthoritiesExtractor() {
-        JwtAuthenticationConverter jwtAuthenticationConverter =
-                new JwtAuthenticationConverter();
-        jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter
-                (new KeycloakRoleConverter());
-        return new ReactiveJwtAuthenticationConverterAdapter(jwtAuthenticationConverter);
+        CustomJwtAuthenticationConverter converter = new CustomJwtAuthenticationConverter();
+        return new ReactiveJwtAuthenticationConverterAdapter(converter);
     }
-
 }

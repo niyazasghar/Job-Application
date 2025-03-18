@@ -5,20 +5,47 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="798c28c4-a469-4d3d-97cc-3fb7e601bdec" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/config/KeycloakRoleConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/controller/FallBackController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/CompanyFallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/ReviewFallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Version-03/company-services/company-services/src/main/java/com/niyaz/company_services/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/company-services/company-services/src/main/java/com/niyaz/company_services/controller/CompanyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Version-03/company-services/company-services/target/classes/com/niyaz/company_services/controller/CompanyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/company-services/company-services/target/classes/com/niyaz/company_services/controller/CompanyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Version-03/eurekaServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/eurekaServer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Version-03/eurekaServer/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/eurekaServer/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/CompanyFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/CompanyFeignClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/ReviewsFeignClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/service/client/ReviewsFeignClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/java/com/niyaz/configServer/ConfigServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/resources/config/company-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/resources/config/company-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/resources/config/company.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/resources/config/eurekaserver.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/resources/config/jobs-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/resources/config/jobs-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/resources/config/reviews-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/resources/config/reviews-prod.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/test/java/com/niyaz/configServer/ConfigServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/config/CustomJwtAuthenticationConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/config/CustomUserDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/dto/UserInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/service/UserInfoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-02/company-services/company-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-02/company-services/company-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-02/company-services/company-services/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-02/company-services/company-services/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-02/company-services/company-services/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-02/company-services/company-services/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-02/configServer/configServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-02/configServer/configServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-02/eurekaServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-02/eurekaServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-02/reviews-services/reviews-services/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-02/reviews-services/reviews-services/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-02/reviews-services/reviews-services/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-02/reviews-services/reviews-services/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/company-services/company-services/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/company-services/company-services/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/company-services/company-services/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/company-services/company-services/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/company-services/company-services/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/company-services/company-services/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/configServer/configServer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/configServer/configServer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/configServer/configServer/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/configServer/configServer/target/classes/com/niyaz/configServer/ConfigServerApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/gateway/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/controller/FallBackController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway/controller/FallBackController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/controller/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/entity/JobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/java/com/niyaz/jobs_services/entity/JobApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/target/classes/com/niyaz/jobs_services/entity/JobApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/target/classes/com/niyaz/jobs_services/entity/JobApplication.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +66,9 @@
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="2rbx0z3qVE5yUqhDLGhKhHvUGju" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -46,26 +76,27 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
-    &quot;Application.CompanyServicesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ConfigServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.GatewayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.JobsServicesApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ReviewsServicesApplication.executor&quot;: &quot;Run&quot;,
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.CompanyServicesApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ConfigServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.EurekaServerApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.GatewayApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.JobsServicesApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ReviewsServicesApplication.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/MD NIYAZ ASGHAR/Desktop/JOB-Application/Version-03/gateway/gateway/src/main/java/com/niyaz/gateway&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/MD NIYAZ ASGHAR/Desktop/JOB-Application/Version-03&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-03\gateway\gateway\src\main\java\com\niyaz\gateway" />
+      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-03" />
+      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-03\configServer\configServer\src\main\resources" />
+      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-02\configServer\configServer\src\main\resources" />
+      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-01.5-configserver-integeration\configServer\configServer\src\main\resources\config" />
       <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application" />
-      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-02\jobs-services\jobs-services\src\main\resources" />
-      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\version-02" />
-      <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-01" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MD NIYAZ ASGHAR\Desktop\JOB-Application\Version-00" />
@@ -89,6 +120,9 @@
       <updated>1736841356609</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

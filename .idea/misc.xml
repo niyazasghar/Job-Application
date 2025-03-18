@@ -21,6 +21,10 @@
         <option value="$PROJECT_DIR$/Version-03/jobs-services/jobs-services/pom.xml" />
         <option value="$PROJECT_DIR$/Version-03/reviews-services/reviews-services/pom.xml" />
         <option value="$PROJECT_DIR$/Version-03/gateway/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-01.5-configserver-integeration/company-services/company-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-01.5-configserver-integeration/jobs-services/jobs-services/pom.xml" />
+        <option value="$PROJECT_DIR$/Version-01.5-configserver-integeration/reviews-services/reviews-services/pom.xml" />
       </list>
     </option>
   </component>

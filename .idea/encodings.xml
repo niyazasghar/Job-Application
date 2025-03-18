@@ -4,6 +4,10 @@
     <file url="file://$PROJECT_DIR$/Version-00/company-services/company-services/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Version-00/jobs-services/jobs-services/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Version-00/reviews-services/reviews-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-01.5-configserver-integeration/company-services/company-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-01.5-configserver-integeration/configServer/configServer/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-01.5-configserver-integeration/jobs-services/jobs-services/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Version-01.5-configserver-integeration/reviews-services/reviews-services/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Version-02/company-services/company-services/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Version-02/configServer/configServer/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Version-02/eurekaServer/src/main/java" charset="UTF-8" />

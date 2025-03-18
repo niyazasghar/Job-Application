@@ -1,15 +1,17 @@
 server:
   port: 1001
+
 spring:
+  profiles:
+    active: dev
   application:
-    name: "Company"
-    profiles:
-      active: "dev"
-
-
+    name: "company"
   config:
     import: "optional:configserver:http://localhost:8071/"
-
+  cloud:
+    config:
+      discovery:
+        enabled: false
   datasource:
     url: jdbc:mysql://localhost:3306/companydb
     driverClassName: com.mysql.cj.jdbc.Driver
@@ -19,6 +21,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+
 springdoc:
   api-docs:
     enabled: true
@@ -39,21 +42,10 @@ management:
     health:
       probes:
         enabled: true
+
 logging:
   level:
     org.springframework: DEBUG
-build:
-  version: "1.0"
-
-company:
-  message: "Welcome to Reviews Company Service - Development Environment"
-  contactDetails:
-    name: "Baharul - Development Owner"
-    email: "bob.johnson@eazybank.com"
-  onCallSupport:
-    - "(555) 555-3333"
-    - "(555) 555-4444"
-
 
 eureka:
   instance:

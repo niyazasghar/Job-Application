@@ -1,0 +1,13 @@
+server:
+  port: 9000
+build:
+  version: "1.0"
+
+reviews:
+  message: "Welcome to Reviews Company Service - Development Environment"
+  contactDetails:
+    name: "Baharul - Development Owner"
+    email: "bob.johnson@eazybank.com"
+  onCallSupport:
+    - "(555) 555-3333"
+    - "(555) 555-4444"

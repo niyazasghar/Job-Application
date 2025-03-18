@@ -14,13 +14,17 @@
         <module name="jobs-services (2)" />
         <module name="jobs-services (1)" />
         <module name="configServer (1)" />
+        <module name="configServer (2)" />
+        <module name="jobs-services (3)" />
         <module name="configServer" />
         <module name="company-services (1)" />
+        <module name="company-services (3)" />
         <module name="company-services" />
         <module name="jobs-services" />
         <module name="company-services (2)" />
         <module name="reviews-services (2)" />
         <module name="gateway" />
+        <module name="reviews-services (3)" />
       </profile>
     </annotationProcessing>
   </component>
@@ -29,17 +33,21 @@
       <module name="company-services" options="-parameters" />
       <module name="company-services (1)" options="-parameters" />
       <module name="company-services (2)" options="-parameters" />
+      <module name="company-services (3)" options="-parameters" />
       <module name="configServer" options="-parameters" />
       <module name="configServer (1)" options="-parameters" />
+      <module name="configServer (2)" options="-parameters" />
       <module name="eurekaServer" options="-parameters" />
       <module name="eurekaServer (1)" options="-parameters" />
       <module name="gateway" options="-parameters" />
       <module name="jobs-services" options="-parameters" />
       <module name="jobs-services (1)" options="-parameters" />
       <module name="jobs-services (2)" options="-parameters" />
+      <module name="jobs-services (3)" options="-parameters" />
       <module name="reviews-services" options="-parameters" />
       <module name="reviews-services (1)" options="-parameters" />
       <module name="reviews-services (2)" options="-parameters" />
+      <module name="reviews-services (3)" options="-parameters" />
     </option>
   </component>
 </project>

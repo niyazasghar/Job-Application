@@ -1,0 +1,13 @@
+server:
+  port: 7090
+build:
+  version: "3.0"
+
+jobs:
+  message: "Welcome to Niyaz Jobs Service - Development Environment"
+  contactDetails:
+    name: "Niyaz Asghar - Developer"
+    email: "niyazAsghar.dev"
+  onCallSupport:
+    - "(555) 555-1111"
+    - "(555) 555-2222"

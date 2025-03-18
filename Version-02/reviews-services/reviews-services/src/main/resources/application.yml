@@ -6,7 +6,7 @@ spring:
     name: "reviews"
 
   profiles:
-    active: "dev"
+    active: "prod"
 
   config:
     import: "optional:configserver:http://localhost:8071/"
